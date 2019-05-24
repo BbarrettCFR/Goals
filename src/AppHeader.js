@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import "./AppHeader.css";
 
 function AppHeader() {
-  const [goal, setGoal] = useState("Set a Goal");
+  const [goal, setGoal] = useState(null);
 
   return (
     <div className="header">
-      <h2>{goal}</h2>
+      <h2 className="animated infinite bounce delay-2s">{goal}</h2>
       <form>
-        <input />
+        <input value={goal} onInput={e => setGoal(e.target.value)} />
       </form>
-      <button onClick={() => setGoal("Lose Weight")}>Click to Start</button>
+      <button>Get Started</button>
+      <button onClick={() => setGoal(null)}>Clear Goal</button>
     </div>
   );
 }
