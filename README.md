@@ -1,2 +1,0 @@
-# Goals
-Created with CodeSandbox
