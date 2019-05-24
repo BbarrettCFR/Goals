@@ -1,0 +1,14 @@
+.day-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: solid black 1.5px;
+}
+.day-counter {
+  margin: 2em;
+  padding: 1.5em;
+  justify-content: flex-end;
+  border-radius: 15px;
+  background-color: #e8e8e8;
+  border: solid black 1px;
+}
