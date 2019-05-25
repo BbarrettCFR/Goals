@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./DayTracker.css";
 
 function DayTracker() {
+  var today = { currentTime: new Date().toLocaleString() };
   const [days, setDays] = useState(1);
   const [hours, setHours] = useState(24);
 
