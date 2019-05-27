@@ -4,7 +4,7 @@ import "./DayTracker.css";
 function DayTracker() {
   var today = { currentTime: new Date().toLocaleString() };
   const [days, setDays] = useState(1);
-  const [hours, setHours] = useState(24);
+  const hours = days * 24;
 
   return (
     <div class="day-box">
