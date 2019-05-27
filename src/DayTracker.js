@@ -15,7 +15,7 @@ function DayTracker() {
         <h4>Hours:</h4>
         <p> {hours}</p>
 
-        <button onClick={() => setDays(days + 1)}>+</button>
+        <button onClick={() => setDays(days + 0.5)}>+</button>
       </div>
     </div>
   );
