@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "./TodayDate.css";
 
 class TodayDate extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      date: new Date().toLocaleString()
+      date: new Date().toDateString()
     };
   }
 
