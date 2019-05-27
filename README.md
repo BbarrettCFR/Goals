@@ -1,4 +1,4 @@
 # goals
 Tracking Goals for 2019
 
-Merge all branches ASAP.
+TODO: Merge all branches ASAP. Add more information as project unfolds.  
