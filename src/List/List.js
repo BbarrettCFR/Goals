@@ -5,9 +5,8 @@ function List() {
   const Todo = ({ todo }) => <div className="todo">{todo.text}</div>;
 
   const [todos, setTodos] = useState([
-    { text: "Learn about React" },
-    { text: "Meet friend for lunch" },
-    { text: "Build really cool todo app" }
+    { },
+   
   ]);
 
   const addTodo = text => {
