@@ -27,11 +27,9 @@ export default props => {
         <input onChange={onChangeInput} />
         <input />
         <br />
-        <button>Button A</button>
-        <button>Button B</button>
-        <button>Button C</button>
-        <button>Button D</button>
-      </form>
+        <button>Create Another List</button>
+        <button>Create a New Goal</button>
+        
     </Modal>
   );
 };
