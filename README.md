@@ -2,3 +2,7 @@
 Tracking Goals for 2019
 
 TODO: Merge all branches ASAP. Add more information as project unfolds.  
+
+-Test variations of task list, decide which is more efficent. 
+-Create logging and persistance using local state.
+-Work on better styling, more streamlined. 
